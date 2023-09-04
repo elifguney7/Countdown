@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Bebas+Neue&family=Bricolage+Grotesque:opsz@10..48&family=Cantora+One&family=Handjet:wght@400;700&family=Lobster&family=Lumanosimo&family=Oswald&family=Teko&family=Ubuntu:wght@500&display=swap');
 
 html {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Video Background */
@@ -65,6 +65,7 @@ h1 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 10px;
+  color: rgb(62, 62, 62);
 }
 
 /* Form */
@@ -75,6 +76,9 @@ h1 {
 label {
   font-weight: bold;
   margin-left: 10px;
+  color: rgb(38, 38, 38);
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 input {
@@ -85,6 +89,7 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -102,6 +107,9 @@ button {
   outline: none;
 }
 
+button:hover {
+  filter: brightness(110%);
+}
 
 
 /* Countdown */
